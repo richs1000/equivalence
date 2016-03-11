@@ -7,14 +7,14 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<link rel="stylesheet" type="text/css" href="app/styles/style.css"/>
 		<link rel="stylesheet" type="text/css" href="app/styles/bootstrap.min.css">
-		<title>Which Node Gets Expanded Next?</title>
+		<title>Are the block of code equivalent?</title>
 
 	</head>
 	<body>
 		<div class="starter-template">
 			<div class="container">
 				<div class="row">
-					<h3>Contents of Fringe</h3>
+					<h3>Equivalent questions</h3>
 					<div id='fringeTableDiv'>
 					</div>
 				</div>
@@ -22,7 +22,7 @@
 				<div class="row">
 					<div class="form-group">
 						<label id="lblQuestion"></label>
-						<input type="text" class="form-control" placeholder="Answer here" id="txtAnswer">
+						<div id="groupAnswer"></div>
 						<button id="btnStart" type="button" class="btn btn-primary">Start App</button>
 						<button id="btnSubmit" type="button" class="btn btn-primary" disabled="true">Submit</button>
 						<button id="btnNextQuestion" type="button" class="btn btn-primary" disabled="true">Next Question</button>
@@ -47,10 +47,8 @@
 		<script src="libs/jquery-1.11.3.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="libs/bootstrap.min.js"></script>
-		<script src="app/scripts/fringemodel.js"></script>
 		<script src="app/scripts/questionbankmodel.js"></script>
 		<script src="app/scripts/model.js"></script>
-		<script src="app/scripts/fringeview.js"></script>
 		<script src="app/scripts/questionbankview.js"></script>
 		<script src="app/scripts/view.js"></script>
 		<script src="app/scripts/controller.js"></script>
